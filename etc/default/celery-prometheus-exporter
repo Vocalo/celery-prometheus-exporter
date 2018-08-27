@@ -1,0 +1,27 @@
+# Set the command line arguments for celery_prometheus_exporter.py
+
+ARGS=""
+PYTHON="/usr/bin/python"
+
+# usage: celery_prometheus_exporter.py [-h] [--broker BROKER]
+#                                      [--transport-options TRANSPORT_OPTIONS]
+#                                      [--addr ADDR] [--enable-events] [--tz TZ]
+#                                      [--verbose]
+#                                      [--max_tasks_in_memory MAX_TASKS_IN_MEMORY]
+#                                      [--version]
+#
+# optional arguments:
+#   -h, --help            show this help message and exit
+#   --broker BROKER       URL to the Celery broker. Defaults to
+#                         redis://redis:6379/0
+#   --transport-options TRANSPORT_OPTIONS
+#                         JSON object with additional options passed to the
+#                         underlying transport.
+#   --addr ADDR           Address the HTTPD should listen on. Defaults to
+#                         0.0.0.0:8888
+#   --enable-events       Periodically enable Celery events
+#   --tz TZ               Timezone used by the celery app.
+#   --verbose             Enable verbose logging
+#   --max_tasks_in_memory MAX_TASKS_IN_MEMORY
+#                         Tasks cache size. Defaults to 10000
+#   --version             show program's version number and exit
