@@ -1,7 +1,6 @@
 # Set the command line arguments for celery_prometheus_exporter.py
 
 ARGS=""
-PYTHON="/usr/bin/python"
 
 # usage: celery_prometheus_exporter.py [-h] [--broker BROKER]
 #                                      [--transport-options TRANSPORT_OPTIONS]

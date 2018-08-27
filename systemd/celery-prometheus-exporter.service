@@ -6,7 +6,7 @@ After=multi-user.target
 [Service]
 Type=idle
 EnvironmentFile=/usr/local/etc/default/celery-prometheus-exporter
-ExecStart=$PYTHON /usr/local/bin/celery-prometheus-exporter.py $ARGS
+ExecStart=/usr/bin/python /usr/local/bin/celery_prometheus_exporter.py $ARGS
 
 [Install]
 WantedBy=multi-user.target
